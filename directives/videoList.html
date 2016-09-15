@@ -1,0 +1,11 @@
+<li onClick="" class="list-group-item">
+    <div class="video-list media" ng-click="selectVideoFunction({ video: videoItem, frameUrl: videoFrameUrl })">
+        <div class="media-left">
+            <img class="media-object" ng-src={{videoItem.snippet.thumbnails.default.url}} />
+        </div><!--media-left-->
+
+        <div class="media-body">
+            <div class="media-heading">{{videoItem.snippet.title}}</div>
+        </div><!--media-body-->
+    </div><!--video-list media-->
+</li>
